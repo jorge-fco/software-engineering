@@ -3,6 +3,7 @@
 ### Requerimientos
 ### Diseño
 * Diagrama de flujo.
+* Prototipo.
 * Wireframes.
 ### Implementación
 ### Verificación
