@@ -27,4 +27,5 @@ Etapas del proceso de desarrollo de software.
 ### Mantenimiento
 
 ### References
-[Style Guide CSS](https://github.com/airbnb/css)
+- [airbnb Style Guide Javascript](https://github.com/airbnb/javascript)
+- [airbnb Style Guide CSS](https://github.com/airbnb/css)
