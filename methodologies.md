@@ -1,9 +1,17 @@
 # Metodologías.
 
-### Medologías Tradicionales.
-- Cascada.
-- Espiral.
+### Metodologías Tradicionales.
 
-### Medologías Ágiles.
+#### Metodología Cascada.
+- Requisitos.
+- Diseño.
+- Desarrollo.
+- Pruebas.
+- Lanzamiento.
+- Mantenimiento.
+
+#### Metodología Espiral.
+
+### Metodologías Ágiles.
 - XP
 - SCRUM
