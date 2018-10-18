@@ -1,6 +1,6 @@
 # Metodologías.
 
-### Metodologías Tradicionales.
+## Metodologías Tradicionales.
 
 #### Metodología Cascada.
 - Requisitos.
@@ -12,6 +12,13 @@
 
 #### Metodología Espiral.
 
-### Metodologías Ágiles.
-- XP
-- SCRUM
+## Metodologías Ágiles.
+
+### XP (Extreme programming)
+- Simplicidad.
+- Comunicación.
+- Realimentación.
+- Coraje.
+- Respeto.
+
+### SCRUM
