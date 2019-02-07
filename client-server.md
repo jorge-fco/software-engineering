@@ -1,0 +1,3 @@
+- Polling
+- Long polling
+- WebSockets
