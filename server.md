@@ -20,3 +20,10 @@ Por ejemplo, un registro CNAME puede asignar la dirección web www.example.com a
 # RewriteEngine On
 # Redirect 301 /my-name-url http://new-domian.mx/my-name-url
 ```
+
+```
+# Force HTTPS:// in my domian
+RewriteEngine On
+RewriteCond %{HTTPS} !=on
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301,NE]
+```
