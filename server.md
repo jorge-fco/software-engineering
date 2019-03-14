@@ -15,3 +15,8 @@ Por ejemplo, un registro CNAME puede asignar la dirección web www.example.com a
 **.htaccess:** _Hypertext Access_. Archivo de configuración para servidores web basados en Apache.
 
 - Change page URLs with [301 redirects](https://support.google.com/webmasters/answer/93633?hl=en)
+
+```
+# RewriteEngine On
+# Redirect 301 /my-name-url http://new-domian.mx/my-name-url
+```
