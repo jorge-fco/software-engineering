@@ -12,4 +12,4 @@ Por ejemplo, un registro CNAME puede asignar la dirección web www.example.com a
 **SMTP:**
 (_Simple Mail Transfer Protocol_) es un protocolo de red utilizado para el intercambio de mensajes de correo electrónico entre computadoras u otros dispositivos.
 
-**.htaccess:**
+**.htaccess:** _Hypertext Access_. Archivo de configuración para servidores web basados en Apache.
