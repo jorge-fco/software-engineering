@@ -13,3 +13,5 @@ Por ejemplo, un registro CNAME puede asignar la dirección web www.example.com a
 (_Simple Mail Transfer Protocol_) es un protocolo de red utilizado para el intercambio de mensajes de correo electrónico entre computadoras u otros dispositivos.
 
 **.htaccess:** _Hypertext Access_. Archivo de configuración para servidores web basados en Apache.
+
+- Change page URLs with [301 redirects](https://support.google.com/webmasters/answer/93633?hl=en)
