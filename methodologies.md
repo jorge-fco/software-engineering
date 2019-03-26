@@ -22,3 +22,5 @@
 - Respeto.
 
 **– SCRUM**
+
+**BIM**
