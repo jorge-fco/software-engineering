@@ -43,3 +43,17 @@ enter password:
 ```
 00.27.46.200 mydomian.com www.mydomian.com
 ```
+
+4.- Comentar lineas de código # (gato + espacio)
+```
+# example host
+# 00.27.46.200 mydomian.com www.mydomian.com
+```
+
+5.- `ctrl` + `o` + `ENTER` para guadar.
+
+6.- `ctrl` + `x` para salir del host files.
+
+7.- Realizar flush al cache.
+```
+```
