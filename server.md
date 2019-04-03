@@ -27,3 +27,19 @@ RewriteEngine On
 RewriteCond %{HTTPS} !=on
 RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301,NE]
 ```
+
+### LocalHost server
+1.- Acceder al directorio de host.
+```
+sudo nano /private/etc/hosts
+```
+
+2.- Password de mi PC.
+```
+enter password:
+```
+
+3.- IP
+```
+00.27.46.200 mydomian.com www.mydomian.com
+```
