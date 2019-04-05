@@ -56,4 +56,5 @@ enter password:
 
 7.- Realizar flush al cache.
 ```
+dscacheutil -flushcache
 ```
