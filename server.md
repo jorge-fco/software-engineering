@@ -21,6 +21,7 @@ Por ejemplo, un registro CNAME puede asignar la dirección web www.example.com a
 # Redirect 301 /my-name-url http://new-domian.mx/my-name-url
 ```
 
+Force HTTPS:// in My domian
 ```
 # Force HTTPS:// in my domian
 RewriteEngine On
