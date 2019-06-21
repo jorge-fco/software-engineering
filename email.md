@@ -1,24 +1,30 @@
 # Emails.
-------------------------------------------
-* Nombre de usuario: micorreo@company.com
-* Contraseña: mypassword
-------------------------------------------
-* Servidor entrante: server.company.com
-* IMAP Port: 000
-* POP3 Port: 000
-------------------------------------------
-* Servidor de correo: smtp.company.com
-* SMTP Port: 000
-------------------------------------------
 
 ## Secure SSL/TLS Settings (Recomendado)
 
 **IMAP**
 
+Servidor correo entrante.
+- **Nombre de usuario:** micorreo@company.com
+- **Contraseñ:** mypassword
+- Server: mail.company.com
+- Tipo de seguridad: SSL / TLS
+- IMAP Port: 993
+
+Servidor de salida:
+- **Nombre de usuario:** micorreo@company.com
+- **Contraseñ:** mypassword
+- Server: mail.company.com
+- Tipo de seguridad: SSL / TLS
+– SMTP Port: 465
+
 **POP**
+
 
 ## Configuración diferente de SSL (NO se recomienda) 
 
 **IMAP**
+IMAP Port: 000
 
 **POP**
+POP3 Port: 000
