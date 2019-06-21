@@ -28,7 +28,7 @@ _Servidor correo entrante._
 - **Contraseña:** mypassword
 - **Server:** mail.company.com
 - **Tipo de seguridad:** SSL/TLS
-- **IMAP Port:** 993
+- **IMAP Port:** 995
 
 _Servidor de salida._
 - **Nombre de usuario:** micorreo@company.com
