@@ -4,14 +4,14 @@
 
 #### IMAP.
 
-Servidor correo entrante.
+_Servidor correo entrante._
 - **Nombre de usuario:** micorreo@company.com
 - **Contraseña:** mypassword
 - **Server:** mail.company.com
 - **Tipo de seguridad:** SSL / TLS
 - **IMAP Port:** 993
 
-Servidor de salida:
+_Servidor de salida._
 - **Nombre de usuario:** micorreo@company.com
 - **Contraseña:** mypassword
 - **Server:** mail.company.com
@@ -19,7 +19,7 @@ Servidor de salida:
 – **SMTP Port:** 465
 
 #### POP3.
-
+Se descargan de manera local en tu dispositivo móvil o computadora eliminándolos del Servidor/Webmail.
 
 ## Configuración diferente de SSL (NO se recomienda) 
 
