@@ -1,10 +1,15 @@
 # Emails.
-
-* Nombre de usuario:
-* Contraseña:
-* Servidor entrante:
-* Servidor de correo:
-----------------------------------
+------------------------------------------
+* Nombre de usuario: micorreo@company.com
+* Contraseña: mypassword
+------------------------------------------
+* Servidor entrante: server.company.com
+* IMAP Port: 000
+* POP3 Port: 000
+------------------------------------------
+* Servidor de correo: smtp.company.com
+* SMTP Port: 000
+------------------------------------------
 
 ## Secure SSL/TLS Settings (Recomendado)
 
