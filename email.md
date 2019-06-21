@@ -6,14 +6,14 @@
 * Servidor de correo:
 ----------------------------------
 
-## Secure SSL/TLS 
+## Secure SSL/TLS Settings (Recomendado)
 
-### IMAP
+**IMAP**
 
-### POP
+**POP**
 
 ## Configuración diferente de SSL (NO se recomienda) 
 
-### IMAP
+**IMAP**
 
-### POP
+**POP**
