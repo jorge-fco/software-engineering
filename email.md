@@ -2,7 +2,7 @@
 
 ## Secure SSL/TLS Settings (Recomendado)
 
-**IMAP**
+#### IMAP.
 
 Servidor correo entrante.
 - **Nombre de usuario:** micorreo@company.com
@@ -18,7 +18,7 @@ Servidor de salida:
 - **Tipo de seguridad:** SSL / TLS
 – **SMTP Port:** 465
 
-**POP**
+#### POP3.
 
 
 ## Configuración diferente de SSL (NO se recomienda) 
