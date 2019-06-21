@@ -28,7 +28,7 @@ _Servidor correo entrante._
 - **Contraseña:** mypassword
 - **Server:** mail.company.com
 - **Tipo de seguridad:** SSL/TLS
-- **IMAP Port:** 995
+- **POP3 Port:** 995
 
 _Servidor de salida._
 - **Nombre de usuario:** micorreo@company.com
@@ -40,8 +40,33 @@ _Servidor de salida._
 ## 🔓Configuración diferente de SSL (http://)
 ❗️NO se recomienda
 
-**IMAP**
-IMAP Port: 000
+#### 📩 IMAP.
+_Servidor correo entrante._
+- **Nombre de usuario:** micorreo@company.com
+- **Contraseña:** mypassword
+- **Server:** mail.company.com
+- **Tipo de seguridad:** SSL/TLS
+- **IMAP Port:** 143
 
-**POP**
-POP3 Port: 000
+_Servidor de salida._
+- **Nombre de usuario:** micorreo@company.com
+- **Contraseña:** mypassword
+- **Server:** mail.company.com
+- **Tipo de seguridad:** SSL/TLS
+- **SMTP Port:** 26
+
+#### 📩 POP3.
+_Servidor correo entrante._
+- **Nombre de usuario:** micorreo@company.com
+- **Contraseña:** mypassword
+- **Server:** mail.company.com
+- **Tipo de seguridad:** SSL/TLS
+- **POP3 Port:** 110
+
+_Servidor de salida._
+- **Nombre de usuario:** micorreo@company.com
+- **Contraseña:** mypassword
+- **Server:** mail.company.com
+- **Tipo de seguridad:** SSL/TLS
+- **SMTP Port:** 26
+
