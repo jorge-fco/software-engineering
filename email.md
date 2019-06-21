@@ -3,6 +3,7 @@
 ## Secure SSL/TLS Settings (Recomendado)
 
 #### IMAP.
+Solo se sincronizan los correos con tu dispositivo móvil o computadora de manera tipo espejo lo cual solo se refleja lo mismo que está almacenado en el Servidor/WebMail.
 
 _Servidor correo entrante._
 - **Nombre de usuario:** micorreo@company.com
