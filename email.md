@@ -72,4 +72,4 @@ _Servidor de salida._
 - **Server:** mail.company.com
 - **Tipo de seguridad:** SSL/TLS
 - **SMTP Port:** 26
-
+---
