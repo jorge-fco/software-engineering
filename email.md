@@ -19,6 +19,7 @@ _Servidor de salida._
 - **Server:** mail.company.com
 - **Tipo de seguridad:** SSL/TLS
 - **SMTP Port:** 465
+---
 
 #### 📩 POP3.
 Se descargan de manera local en tu dispositivo móvil o computadora eliminándolos del Servidor/Webmail.
@@ -36,6 +37,7 @@ _Servidor de salida._
 - **Server:** mail.company.com
 - **Tipo de seguridad:** SSL/TLS
 - **SMTP Port:** 465
+---
 
 ## 🔓Configuración diferente de SSL (http://)
 ❗️NO se recomienda
@@ -54,6 +56,7 @@ _Servidor de salida._
 - **Server:** mail.company.com
 - **Tipo de seguridad:** SSL/TLS
 - **SMTP Port:** 26
+---
 
 #### 📩 POP3.
 _Servidor correo entrante._
