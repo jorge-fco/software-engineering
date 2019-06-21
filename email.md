@@ -6,17 +6,17 @@
 
 Servidor correo entrante.
 - **Nombre de usuario:** micorreo@company.com
-- **Contraseñ:** mypassword
-- Server: mail.company.com
-- Tipo de seguridad: SSL / TLS
-- IMAP Port: 993
+- **Contraseña:** mypassword
+- **Server:** mail.company.com
+- **Tipo de seguridad:** SSL / TLS
+- **IMAP Port:** 993
 
 Servidor de salida:
 - **Nombre de usuario:** micorreo@company.com
-- **Contraseñ:** mypassword
-- Server: mail.company.com
-- Tipo de seguridad: SSL / TLS
-– SMTP Port: 465
+- **Contraseña:** mypassword
+- **Server:** mail.company.com
+- **Tipo de seguridad:** SSL / TLS
+– **SMTP Port:** 465
 
 **POP**
 
