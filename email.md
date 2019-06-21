@@ -1,6 +1,7 @@
 # Emails.
 
-## 🔒 Secure SSL/TLS Settings (Recomendado)
+## 🔒 Secure SSL/TLS Settings (https://)
+✅ Recomendado
 
 #### 📩 IMAP.
 Solo se sincronizan los correos con tu dispositivo móvil o computadora de manera tipo espejo lo cual solo se refleja lo mismo que está almacenado en el Servidor/WebMail.
@@ -9,20 +10,35 @@ _Servidor correo entrante._
 - **Nombre de usuario:** micorreo@company.com
 - **Contraseña:** mypassword
 - **Server:** mail.company.com
-- **Tipo de seguridad:** SSL / TLS
+- **Tipo de seguridad:** SSL/TLS
 - **IMAP Port:** 993
 
 _Servidor de salida._
 - **Nombre de usuario:** micorreo@company.com
 - **Contraseña:** mypassword
 - **Server:** mail.company.com
-- **Tipo de seguridad:** SSL / TLS
-– **SMTP Port:** 465
+- **Tipo de seguridad:** SSL/TLS
+- **SMTP Port:** 465
 
 #### 📩 POP3.
 Se descargan de manera local en tu dispositivo móvil o computadora eliminándolos del Servidor/Webmail.
 
-## Configuración diferente de SSL (NO se recomienda) 
+_Servidor correo entrante._
+- **Nombre de usuario:** micorreo@company.com
+- **Contraseña:** mypassword
+- **Server:** mail.company.com
+- **Tipo de seguridad:** SSL/TLS
+- **IMAP Port:** 993
+
+_Servidor de salida._
+- **Nombre de usuario:** micorreo@company.com
+- **Contraseña:** mypassword
+- **Server:** mail.company.com
+- **Tipo de seguridad:** SSL/TLS
+- **SMTP Port:** 465
+
+## 🔓Configuración diferente de SSL (http://)
+❗️NO se recomienda
 
 **IMAP**
 IMAP Port: 000
