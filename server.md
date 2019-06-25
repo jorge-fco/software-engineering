@@ -28,34 +28,3 @@ RewriteEngine On
 RewriteCond %{HTTPS} !=on
 RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301,NE]
 ```
-
-### LocalHost server
-1.- Acceder al directorio de host.
-```
-sudo nano /private/etc/hosts
-```
-
-2.- Password de mi PC.
-```
-enter password:
-```
-
-3.- IP
-```
-00.27.46.200 mydomian.com www.mydomian.com
-```
-
-4.- Comentar lineas de código # (gato + espacio)
-```
-# example host
-# 00.27.46.200 mydomian.com www.mydomian.com
-```
-
-5.- `ctrl` + `o` + `ENTER` para guadar.
-
-6.- `ctrl` + `x` para salir del host files.
-
-7.- Realizar flush al cache.
-```
-dscacheutil -flushcache
-```
