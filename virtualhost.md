@@ -1,11 +1,18 @@
 # Windows.
 
+1.-
 ```
 C:\Windows\System32\drivers\etc\hosts
 ```
 
+2.-
 ```
 127.0.0.1 www.misitio.com
+```
+
+3.- Realizar flush al cache.
+```
+ipconfig / flushdns
 ```
 
 # MAC.
