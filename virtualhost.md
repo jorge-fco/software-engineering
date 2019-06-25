@@ -4,6 +4,10 @@
 C:\Windows\System32\drivers\etc\hosts
 ```
 
+```
+127.0.0.1 www.misitio.com
+```
+
 # MAC.
 1.- Acceder al directorio de host mediante la terminal.
 ```
