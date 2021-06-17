@@ -17,7 +17,7 @@ cd
 
 Copiar archivos de una ruta a otra
 ```
-cp -R rutalocal/nombredelarchivo rutaproduction/
+cp -R projectlocal/site/template/home.php projectproduction/site/templates/
 ```
 
 Revisar los módulos de PHP  instalados.
