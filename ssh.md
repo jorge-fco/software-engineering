@@ -5,6 +5,21 @@ Realizar movimiento a super usuario.
 sudo su -
 ```
 
+Acceder
+```
+ssh root@127.000.000.00
+```
+
+Moverte de directorio
+```
+cd
+```
+
+Copiar archivos de una ruta a otra
+```
+cp -R rutalocal/nombredelarchivo rutaproduction/
+```
+
 Revisar los módulos de PHP  instalados.
 ```
 php -m
