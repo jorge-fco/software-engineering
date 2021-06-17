@@ -11,20 +11,3 @@ Por ejemplo, un registro CNAME puede asignar la dirección web www.example.com a
 
 **SMTP:**
 (_Simple Mail Transfer Protocol_) es un protocolo de red utilizado para el intercambio de mensajes de correo electrónico entre computadoras u otros dispositivos.
-
-**.htaccess:** _Hypertext Access_. Archivo de configuración para servidores web basados en Apache.
-
-- Change page URLs with [301 redirects](https://support.google.com/webmasters/answer/93633?hl=en)
-
-```
-# RewriteEngine On
-# Redirect 301 /my-name-url http://new-domian.mx/my-name-url
-```
-
-Force **https://** in My domian
-```
-# Force HTTPS:// in my domian
-RewriteEngine On
-RewriteCond %{HTTPS} !=on
-RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301,NE]
-```
