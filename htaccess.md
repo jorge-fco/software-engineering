@@ -1,3 +1,6 @@
+# .htaccess:
+_Hypertext Access_. Archivo de configuración para servidores web basados en Apache.
+
 ### Remove (www) from my domain
 ```
 RewriteEngine On
