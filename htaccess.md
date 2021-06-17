@@ -12,3 +12,18 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^([^\.]+)$ $1.php [NC,L]
 ```
 
+### 301 redirects
+Change page URLs with [301 redirects](https://support.google.com/webmasters/answer/93633?hl=en)
+```
+# RewriteEngine On
+# Redirect 301 /my-name-url http://new-domian.mx/my-name-url
+```
+
+### Force connection for my domain
+```
+# Force HTTPS:// in my domian
+RewriteEngine On
+RewriteCond %{HTTPS} !=on
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301,NE]
+```
+
