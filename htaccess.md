@@ -22,7 +22,7 @@ Change page URLs with [301 redirects](https://support.google.com/webmasters/answ
 # Redirect 301 /my-name-url http://new-domian.mx/my-name-url
 ```
 
-### Force connection for my domain
+### Force connection https:// for my domain
 ```
 # Force HTTPS:// in my domian
 RewriteEngine On
