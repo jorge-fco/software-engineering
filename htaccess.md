@@ -30,3 +30,20 @@ RewriteCond %{HTTPS} !=on
 RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301,NE]
 ```
 
+### Headers
+```
+<IfModule mod_headers.c>
+  # X-Frame-Options
+  Header set X-Frame-Options "SAMEORIGIN"
+  
+  # X-XSS-Protection
+	Header set X-XSS-Protection "1; mode=block"
+  
+  # X-Content-Type-Options
+  Header set X-Content-Type-Options "nosniff"
+  
+  # Remove X-Powered-By
+  Header unset X-Powered-By
+</IfModule>
+```
+
