@@ -8,7 +8,7 @@ RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
 RewriteRule ^(.*)$ http://%1%{REQUEST_URI} [R=301,QSA,NC,L]
 ```
 
-### Remove extension in file names 
+### 📝 Remove extension in file names 
 ```
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
@@ -22,7 +22,7 @@ Change page URLs with [301 redirects](https://support.google.com/webmasters/answ
 # Redirect 301 /my-name-url http://new-domian.mx/my-name-url
 ```
 
-### Force connection https:// for my domain
+### 🔒 Force connection https:// for my domain
 ```
 # Force HTTPS:// in my domian
 RewriteEngine On
@@ -37,7 +37,7 @@ RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301,NE]
   Header set X-Frame-Options "SAMEORIGIN"
   
   # X-XSS-Protection
-	Header set X-XSS-Protection "1; mode=block"
+  Header set X-XSS-Protection "1; mode=block"
   
   # X-Content-Type-Options
   Header set X-Content-Type-Options "nosniff"
